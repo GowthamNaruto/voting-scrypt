@@ -17,12 +17,12 @@ export const Footer: FC = (): ReactElement => {
 				<Grid container direction="column" alignItems="center">
 					<Grid item xs={12}>
 						<Typography color="black" variant="h5">
-							{`sCrypt, Inc.`}
+							{`Gowtham Selvam.`}
 						</Typography>
 					</Grid>
 					<Grid item xs={12}>
 						<Link
-							href="https://github.com/sCrypt-Inc/voting"
+							href="https://github.com/GowthamNaruto/voting-scrypt.git"
 							target="_blank"
 							variant="subtitle1"
 						>

@@ -25,7 +25,7 @@ import {
 	toByteString,
 } from 'scrypt-ts';
 import { Voting } from './contracts/voting';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 type Success = {
 	txId: string;
@@ -236,7 +236,7 @@ function App() {
 					</TableBody>
 				</Table>
 			</TableContainer>
-			{/* <Footer /> */}
+			<Footer />
 			<Snackbar
 				open={error !== ''}
 				autoHideDuration={6000}
